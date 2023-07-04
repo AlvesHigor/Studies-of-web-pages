@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Medicamentos</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <a href=""> Home </a>
+        <a href=""> Cadastro <br> de Medicamentos </a>
+        <a href="">Cadastro <br> de Vacinas </a>
+        <a href="">Cadastro <br> de Cosméticos</a>
+    </nav>
+
+    <header>
+        <img id="icon" src="./assets/img/img1.png">
+        <div>
+            <h1>Cadastro de Medicamentos</h1>
+            <h2>Farmácia da Gente</h2>
+        </div>
+    </header>
+
+    <section>
+        <div id="card">
+            <form id="form">
+                <label for=""> <strong> Nome do Medicamento </strong></label>
+                <input id="name" type="text" autocomplete="off">
+                <label for=""> <strong> Quantidade Disponível </strong></label>
+                <input id="qtd" type="number" autocomplete="off">
+                <label for=""> <strong> Preço por unidade </strong></label>
+                <input id="price" type="text" autocomplete="off">
+                <label for=""> <strong> Classe de Medicamento </strong></label>
+                <input id="class" type="text" autocomplete="off">
+            </form>
+        </div>
+
+        <button onclick="lerdados()">Cadastrar</button>
+
+    </section>
+    <script src="./main.js"></script>
+
+</body>
+
+</html>

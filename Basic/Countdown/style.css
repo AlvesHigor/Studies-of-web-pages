@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    flex-direction: column;
+}
+body{
+    background-color: rgb(48,48,48);
+    color: rgb(239,235,228);
+}
+#img{
+    padding: 10px;
+    width: 100px;
+}
+#title{
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: -20px;
+    font-size: 30pt;
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.timer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(239,235,228);
+    font-size: 22pt;
+    text-align: center;
+}
+section div{
+    padding: 80px;
+}

@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #cccccc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    display: flex;
+    background-color: orange;
+    box-shadow: 2px 2px 2px #cccccc;
+}
+
+nav ul {
+    list-style: none;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul li {
+    display: flex;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+
+nav .activa {
+    color: black;
+}
+main h2{
+    margin:20px;
+    text-transform: uppercase;
+    
+}
+
+#main {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+
+#left {
+    width: 73%;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
+
+#left form{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#left form input{
+    height: 35px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: solid 1px #ccc
+}
+
+#left form input::placeholder{
+    padding: 5px;
+    font-size: 15px;
+}
+
+#secure{
+    display: flex;
+    justify-content: space-between;
+}
+
+#valid{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+#cvv{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+}
+
+#right {
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#right ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+#right ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20px;
+    margin: 5px;
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.total{
+    font-weight: bold !important;
+    margin: 30px 0 0 0 !important;
+}
+
+.total h5{
+    font-weight: bold;
+}
+
+#righr ul li h5{
+    font-weight: 100;
+}
+#right button{
+    margin: 10px 0 0 0;
+    height: 60px;
+    width: 100%;
+
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    border:0px;
+
+    cursor: pointer;
+}
+
+#right button:hover{
+    background-color: #ffa60070;
+}

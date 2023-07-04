@@ -1,0 +1,2 @@
+This project is a simular the last pages created of web site of drinks, but have more demands of JavaScrip, need list a specific itens above the button age selecte by the user and 
+need have a calc about the itens and quantidy choose by use user, list in the last page se amount of price for the buy.

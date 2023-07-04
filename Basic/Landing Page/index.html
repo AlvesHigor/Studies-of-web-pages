@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <title>Escola DNCt</title>
+</head>
+
+<body>
+    <header>
+        <img src="./assets/image/logo_DNC.svg" alt="Logo DNC">
+        <h1>Dê os primeiros passos da <br> sua carreira em Tecnologia</h1>
+        <p>Inscreva-se no curso gratuito de Introdução à <br> Tecnologia da DNC School e aprenda os principais <br>
+            fundamentos para construir experiências efetivas.</p>
+    </header>
+    <nav>
+        <div>
+            <img src="./assets/image/certificado.svg" alt="certificado_icon">
+            <h3>Certificado de conclusão</h3>
+        </div>
+        <div>
+            <img src="./assets/image/clock.svg" alt="clock_icon">
+            <h3>4 horas de conteúdo</h3>
+        </div>
+        <div>
+            <img src="./assets/image/filmes.svg" alt="molvie_icon">
+            <h3>Aulas online gravadas</h3>
+        </div>
+    </nav>
+    <section id="section">
+        <div id="video">
+            <iframe width="484" height="275" src="https://www.youtube.com/embed/9wA5SYrALz8" title="Seja bem-vindo(a) ao canal da Escola DNC!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div id="text">
+            <h2>Aprenda com especialistas e <br> comece seu primeiro projeto</h2>
+            <p>Conheça o processo de desenvolvimento e entenda como utilizar <br>
+                os principais métodos e ferramentas da área para resolver
+                <br>problemas complexos. <br>
+                <br>
+                Conquiste seu certificado e desenvolva um projeto prático para
+                <br>aplicar seus conhecimentos.
+            </p>
+            <p></p>
+        </div>
+    </section>
+    <section id="carrosel">
+        <h2>Mais de 500 alunos já iniciaram seus estudos</h2>
+        <div id="card">
+            <img class="cards seta" id="left" onclick="rollLeft()" src="./assets/itens/left.svg" alt="">
+            <img class="cards" id="card_1" src="./assets/cards/card1.svg" alt="">
+            <img class="cards" id="card_2" src="./assets/cards/card2.svg" alt="">
+            <img class="cards" id="card_3" src="./assets/cards/card3.svg" alt="">
+            <img class="cards seta" id="right" onclick="rollRight()" src="./assets/itens/right.svg" alt="">
+        </div>
+    </section>
+    <form action="" method="post"> <!-- you need create the access of sheet monkey to link this formulario with a online excel, put the link on proprety action of tag form -->
+        <h2>Comece agora mesmo e dê o próximo passo da sua carreira</h2>
+        <input type="text" name="Name" placeholder="Nome" required>
+        <input type="email" name="mail" placeholder="E-mail" required>
+        <input type="text" name="phone" placeholder="Telefone" required>
+        <input type="hidden" name="created" value="x-sheetmonkey-current-date-time">
+        <button type="submit">Acesse a ementa grátis</button> <!-- Don't forget put the link you could access after the user subscribe the dates on sheet monkey access-->
+    </form>
+    <script src="./assets/index.js"></script>
+</body>
+
+</html>

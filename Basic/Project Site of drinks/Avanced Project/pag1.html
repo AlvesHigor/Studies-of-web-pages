@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pericles Delivery</title>
+    <link rel="stylesheet" href="pag1.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <menu>
+        <nav id="nav">
+            <a class="button" href="main.html">A Cervejaria</a>
+            <a class="button">Nossas Cervejas</a>
+            <a class="button">Delivery</a>
+        </nav>
+        <div id="shoppingCart">           
+            <a class="button" onclick="listBuy()">Meu Carrinho</a>
+            <img src="./assets/image/Vector.png">
+        </div>
+    </menu>
+    <section>
+        <img src="./assets/image/image 1.png"/>
+        <p>Olá! Gostaria de te dar boas vindas à Cervejaria do Pericles. <br> Escolha a bebida que mais te agrada:</p>
+    </section>
+    <div id="produts">
+        <ul>
+            <li>
+                <img id="iten2" src="./assets/image/image 2.png">
+                <p class="itens">Vinho Tinto <br> R$ 80,00</p>
+                <button class="buttonBuy" onclick="qtdItenA()">Comprar</button>
+            </li>
+            <li>
+                <img id="iten3" src="./assets/image/image 3.png">
+                <p class="itens">Cerveja Heineken <br> R$ 20,00</p>
+                <button class="buttonBuy" onclick="qtdItenB()">Comprar</button>
+            </li>
+            <li>
+                <img id="iten4" src="./assets/image/image 4.png">
+                <p class="itens">Refrigerante Guaraná <br> R$ 10,00</p>
+                <button class="buttonBuy" onclick="qtdItenC()">Comprar</button>
+            </li>
+        </ul>
+    </div>
+
+</body>
+</html>

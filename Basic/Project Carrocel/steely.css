@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    background: #303030;
+    align-items: center;
+    height: 100px;
+    padding: 12px 14px 13px;
+}
+
+header h1 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    margin-left: 31px;
+
+    color: #FFFFFF;
+}
+
+section {
+    display: flex;
+}
+
+#static {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
+}
+
+#static h2 {
+
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    color: #265E70;
+    text-align: center;
+    margin: 58px 0 36px;
+}
+
+#dynamic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
+}
+
+#dynamic h2 {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #265E70;
+    align-items: center;
+
+    margin-top: 66px;
+}
+
+#dynamic h2 span {
+    color: #4DBCE9;
+}
+
+#carrocel {
+    display: flex;
+    align-items: center;
+    margin-top: 22px;
+}
+
+#card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 540px;
+    height: 504px;
+    background: rgba(77, 188, 233, 0.75);
+    border-radius: 15px;
+
+    margin: 0 28px;
+}
+
+.text {
+    font-family: 'Verdana';
+    font-style: normal;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#nameMoto {
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 40px;
+    margin-top: 28px;
+}
+
+#p1 {
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 38px;
+}
+
+#p2 {
+    margin-top: 17px;
+    width: 211px;
+    height: 46px;
+    background: #FFFFFF;
+
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 33px;
+    color: #265E70;
+    align-items: center;
+}
+
+#p3 {
+    margin: 13px 0 20px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+#button {
+    width: 341px;
+    height: 75px;
+    background: #4DBCE9;
+    border-radius: 15px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 47px;
+    align-items: center;
+    color: #FFFFFF;
+
+    margin: 53px 0 0px;
+}
